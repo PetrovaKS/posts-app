@@ -65,6 +65,7 @@ const handleSearch = () => {
 
 const clearSearch = () => {
   searchQuery.value = ''
+  postsStore.searchPosts('')
 }
 
 watch(
